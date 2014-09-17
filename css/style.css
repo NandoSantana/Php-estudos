@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+
+a, button, input, 
+a:focus, button:focus, input:focus, 
+a:active, button:active, input:active { 
+	outilne: 0 none !important;
+	border: none !important;
+	box-shadow: 0 none !important;
+}
+
+input:disabled {
+	background: #333;
+	color: #999 !important;
+}
+.container { position: relative; }
+.container,
+.erros,
+.escopo {
+	margin: 0 auto;
+	width: 67.3%;
+}
+
+.erros,
+.escopo {
+	font-size: 1em;
+	font-family: Tahoma;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	
+	position: absolute;	
+	width: 100%;
+	padding: 1% 0;
+	top: 0;
+	left: 0;
+	background: royalblue;
+}
+
+.header {
+	border-bottom: 1px solid #ccc;
+	padding: 1% 0;
+}
+.header h1 {
+	font-size: 1em;
+	font-family: Tahoma;
+	color: royalblue;
+}
+.header h2 {
+	font-size: 0.8em;
+	font-family: Arial;
+	font-weigth: normal;
+	color: #666;
+}
+
+/* Formulário */
+#send-caixa {
+	padding: 10px;
+	background: #ccc;
+	border: 1px solid #ccc;
+	margin: 1% 0;
+}
+#send-caixa strong {
+	font-size: 1em;
+	font-family: Arial;
+	color: #000;
+}
+#send-caixa input {
+	font-size: 1em;
+	font-family: Arial;
+	color: #666;
+	
+	margin: 0 1% 0 0;
+	padding: 1%;
+	border: 1px solid #ccc;
+	width: 120px;
+}
+#send-caixa strong:after {
+	content: ": "; 
+}
+#send-caixa button {
+	font-size: 1em;
+	font-family: Arial;
+	color: #fff;
+	cursor: pointer;
+	
+	margin: 1% 0;
+	padding: 1%;
+	border: 1px solid #ccc;
+	background: royalblue;
+}
+
+.footer {
+	font-size: 0.7em;
+	font-family: Arial;
+	color: #444;
+}

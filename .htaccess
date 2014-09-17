@@ -1,0 +1,4 @@
+<ifmodule module_rewrite.c>
+	php_flag_display_errors off
+	RewriteEngine on
+</ifmodule>
